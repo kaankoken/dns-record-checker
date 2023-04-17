@@ -1,1 +1,4 @@
 /target
+
+# Ignore xlsx files
+**/*.xlsx
