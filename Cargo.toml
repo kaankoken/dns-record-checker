@@ -1,0 +1,12 @@
+[package]
+name = "check-dns-records"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+calamine = "0.19.1"
+clap = { version = "4.2.2", features = ["derive"] }
+color-eyre = "0.6.2"
+trust-dns-resolver = "0.22.0"
